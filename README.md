@@ -47,7 +47,7 @@ Sistem manajemen parfum online berbasis web yang dibangun dengan **Java Servlet,
 ### 👤 Profil Pekerja
 ![Profil Pekerja](./Tangkap_layar/profil%20pekerja.png)
 ### ➕ Tambah Data Penggajian
-![Tambah Penggajian](./Tangkap_layar/tambah%20data%penggajian%20.png)
+![Tambah Penggajian](./Tangkap_layar/formgaji.png)
 
 
 ---
