@@ -38,7 +38,7 @@ Sistem manajemen parfum online berbasis web yang dibangun dengan **Java Servlet,
 ![Transaksi](./Tangkapan_layar/transaksi.png)
 
 ### 📄 Detail Transaksi
-![Detail Transaksi](./Tangkapan_layar/detail%20transaksi.png)
+![Detail Transaksi](Tangkapan_layar/detail%20transaksi.png)
 
 ### 💰 Data Penggajian
 ![Data Penggajian](./Tangkapan_layar/data%20penggajian.png)
