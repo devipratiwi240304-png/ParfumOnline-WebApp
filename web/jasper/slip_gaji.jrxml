@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="slip_gaji" pageWidth="421" pageHeight="595" columnWidth="381" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="b7f839c4-91b4-4b55-8d4e-d6787323863a">
+	<parameter name="p_id_penggajian" class="java.lang.Integer"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT p.*, u.nama_lengkap, k.nik, k.jabatan 
+FROM penggajian p 
+JOIN karyawan k ON p.karyawan_id = k.id 
+JOIN users u ON k.user_id = u.id 
+WHERE p.id = $P{p_id_penggajian}]]>
+	</queryString>
+	<field name="nama_lengkap" class="java.lang.String"/>
+	<field name="nik" class="java.lang.String"/>
+	<field name="jabatan" class="java.lang.String"/>
+	<field name="periode" class="java.sql.Date"/>
+	<field name="gaji_pokok" class="java.math.BigDecimal"/>
+	<field name="tunjangan" class="java.math.BigDecimal"/>
+	<field name="bonus" class="java.math.BigDecimal"/>
+	<field name="potongan" class="java.math.BigDecimal"/>
+	<field name="total_gaji" class="java.math.BigDecimal"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="60" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="381" height="30" uuid="f04a7a8d-190b-4876-ae18-0e3c847e3a24"/>
+				<textElement textAlignment="Center">
+					<font size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[SLIP GAJI KARYAWAN]]></text>
+			</staticText>
+			<textField pattern="MMMM yyyy">
+				<reportElement x="0" y="30" width="381" height="20" uuid="e3b0c442-98fc-1c14-9bd0-a1b2c3d4e5f6"/>
+				<textElement textAlignment="Center">
+					<font size="12" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{periode}]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<detail>
+		<band height="250" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="10" width="100" height="20" uuid="e3b0c442-98fc-1c14-9bd0-444455556666"/>
+				<text><![CDATA[NIK]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="110" y="10" width="200" height="20" uuid="e3b0c442-98fc-1c14-9bd0-777788889999"/>
+				<textFieldExpression><![CDATA[": " + $F{nik}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="30" width="100" height="20" uuid="e3b0c442-98fc-1c14-9bd0-111122223333"/>
+				<text><![CDATA[Nama Lengkap]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="110" y="30" width="200" height="20" uuid="e3b0c442-98fc-1c14-9bd0-444455556667"/>
+				<textFieldExpression><![CDATA[": " + $F{nama_lengkap}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="50" width="100" height="20" uuid="e3b0c442-98fc-1c14-9bd0-888899990000"/>
+				<text><![CDATA[Jabatan]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="110" y="50" width="200" height="20" uuid="e3b0c442-98fc-1c14-9bd0-222233334444"/>
+				<textFieldExpression><![CDATA[": " + $F{jabatan}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="0" y="80" width="381" height="1" uuid="e3b0c442-98fc-1c14-9bd0-555566667777"/>
+			</line>
+			<staticText>
+				<reportElement x="0" y="90" width="150" height="20" uuid="e3b0c442-98fc-1c14-9bd0-aaaabbbbcccc"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Penerimaan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="110" width="130" height="20" uuid="e3b0c442-98fc-1c14-9bd0-ddddeeeeffff"/>
+				<text><![CDATA[Gaji Pokok]]></text>
+			</staticText>
+			<textField pattern="Rp #,##0">
+				<reportElement x="250" y="110" width="130" height="20" uuid="e3b0c442-98fc-1c14-9bd0-121234345656"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA[$F{gaji_pokok}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="20" y="130" width="130" height="20" uuid="e3b0c442-98fc-1c14-9bd0-ababcdcdcefef"/>
+				<text><![CDATA[Tunjangan]]></text>
+			</staticText>
+			<textField pattern="Rp #,##0">
+				<reportElement x="250" y="130" width="130" height="20" uuid="e3b0c442-98fc-1c14-9bd0-787890901212"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA[$F{tunjangan}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="20" y="150" width="130" height="20" uuid="e3b0c442-98fc-1c14-9bd0-999988887777"/>
+				<text><![CDATA[Bonus]]></text>
+			</staticText>
+			<textField pattern="Rp #,##0">
+				<reportElement x="250" y="150" width="130" height="20" uuid="e3b0c442-98fc-1c14-9bd0-666655554444"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA[$F{bonus}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="180" width="150" height="20" uuid="e3b0c442-98fc-1c14-9bd0-333322221111"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Potongan]]></text>
+			</staticText>
+			<textField pattern="Rp #,##0">
+				<reportElement x="250" y="180" width="130" height="20" uuid="e3b0c442-98fc-1c14-9bd0-000011112222"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA[$F{potongan}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="250" y="210" width="131" height="1" uuid="e3b0c442-98fc-1c14-9bd0-888877776666"/>
+			</line>
+			<staticText>
+				<reportElement x="0" y="220" width="150" height="20" uuid="e3b0c442-98fc-1c14-9bd0-555544443333"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Total Gaji Bersih]]></text>
+			</staticText>
+			<textField pattern="Rp #,##0">
+				<reportElement x="250" y="220" width="130" height="20" uuid="e3b0c442-98fc-1c14-9bd0-222211110000"/>
+				<textElement textAlignment="Right">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{total_gaji}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

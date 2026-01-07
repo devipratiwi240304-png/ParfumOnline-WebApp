@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/web/views/parfum/form.jsp</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/web/login.jsp</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/web/views/penggajian/list.jsp</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/web/views/auth/login.jsp</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/src/java/dao/KaryawanDAO.java</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/src/java/controller/PenggajianServlet.java</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/web/views/laporan/penjualan.jsp</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/src/java/dao/PenggajianDAO.java</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/web/WEB-INF/index.jsp</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/src/java/model/User.java</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/src/java/util/SessionUtil.java</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/web/test_jstl.jsp</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/web/views/laporan/stok.jsp</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/src/java/util/DatabaseUtil.java</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/web/views/karyawan/dashboard.jsp</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/src/java/controller/KaryawanServlet.java</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/web/views/admin/dashboard.jsp</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/web/views/auth/register.jsp</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/web/assets/css/style.css</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/src/java/controller/LaporanServlet.java</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/src/java/dao/TransaksiDAO.java</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/src/java/service/AuthService.java</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/src/java/controller/ParfumServlet.java</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/src/java/model/Karyawan.java</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/src/java/model/Parfum.java</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/src/java/dao/ParfumDAO.java</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/src/java/controller/DashboardServlet.java</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/web/views/parfum/list.jsp</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/web/views/karyawan/transaksi/form.jsp</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/src/java/controller/AdminServlet.java</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/src/java/model/Penggajian.java</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/src/java/dao/BaseDAO.java</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/web/views/templates/header.jsp</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/web/assets/image/Acqua%20di%20Gio.jpg</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/web/views/parfum/detail.jsp</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/web/views/penggajian/form.jsp</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/src/java/controller/AuthServlet.java</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/src/java/service/PenggajianService.java</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/src/java/util/PasswordUtil.java</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/src/java/controller/TransaksiServlet.java</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/README.md</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/src/java/dao/AbsensiDAO.java</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/web/views/templates/footer.jsp</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/web/views/karyawan/transaksi/list.jsp</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/src/java/dao/UserDAO.java</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/web/assets/js/script.js</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/web/views/admin/parfum/form.jsp</file>
+            <file>file:/C:/aplikasi%20web1/ParfumOnline/web/views/templates/sidebar.jsp</file>
+        </group>
+    </open-files>
+</project-private>
