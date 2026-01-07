@@ -30,15 +30,23 @@ Sistem manajemen parfum online berbasis web yang dibangun dengan **Java Servlet,
 - Bootstrap
 
 ---
-
+### 🔐 Tampilan Awal
 ![Tampilan Awal](./Tangkap_layar/tampilan%20awal.png)
+### 🛒 Halaman Transaksi
 ![Transaksi](./Tangkap_layar/transaksi.png)
+### 📄 Detail Transaksi
 ![Detail Transaksi](./Tangkap_layar/detail%20transaksi.png)
+### 💰 Data Penggajian
 ![Data Penggajian](./Tangkap_layar/data%20penggajian.png)
+### 📊 Laporan Transaksi
 ![Data Laporan](./Tangkap_layar/data%20laporan%20transaksi.png)
+### 🧾 Cetak Laporan Transaksi
 ![Cetak Laporan](./Tangkap_layar/cetak%20data%20laporan%20transaksi.png)
+### 🧾 Detail Cetak Laporan
 ![Detail Cetak](./Tangkap_layar/detail%20cetak%20laporan%20transaksi.png)
+### 👤 Profil Pekerja
 ![Profil Pekerja](./Tangkap_layar/profil%20pekerja.png)
+### ➕ Tambah Data Penggajian
 ![Tambah Penggajian](./Tangkap_layar/tambah%20data%penggajian%20.png)
 
 
