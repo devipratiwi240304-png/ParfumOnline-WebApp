@@ -39,7 +39,7 @@ Sistem manajemen parfum online berbasis web yang dibangun dengan **Java Servlet,
 ![Cetak Laporan](./Tangkap_layar/cetak%20data%20laporan%20transaksi.png)
 ![Detail Cetak](./Tangkap_layar/detail%20cetak%20laporan%20transaksi.png)
 ![Profil Pekerja](./Tangkap_layar/profil%20pekerja.png)
-![Tambah Penggajian](https://github.com/devipratwi240304-png/ParfumOnline-WebApp/blob/main/Tangkap_layar/tambah%20data%20penggajian.png)
+![Tambah Penggajian](./Tangkap_layar/tambah%20data%20penggajian%20.png)
 
 
 ---
