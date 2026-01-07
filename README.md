@@ -31,34 +31,33 @@ Sistem manajemen parfum online berbasis web yang dibangun dengan **Java Servlet,
 
 ---
 
-## 📸 Tangkapan Layar Aplikasi
-
 ### 🔐 Tampilan Awal
-![Tampilan Awal](Tangkapan_layar/tampilan_awal.png)
+![Tampilan Awal](./Tangkapan_layar/tampilan%20awal.png)
 
 ### 🛒 Halaman Transaksi
-![Transaksi](Tangkapan_layar/transaksi.png)
+![Transaksi](./Tangkapan_layar/transaksi.png)
 
 ### 📄 Detail Transaksi
-![Detail Transaksi](Tangkapan_layar/detail%20transaksi.png)
+![Detail Transaksi](./Tangkapan_layar/detail%20transaksi.png)
 
 ### 💰 Data Penggajian
-![Data Penggajian](Tangkapan_layar/data%20penggajian.png)
+![Data Penggajian](./Tangkapan_layar/data%20penggajian.png)
 
-### 📊 Laporan Transaksi
-![Laporan Transaksi](Tangkapan_layar/data%20laporan%20transaksi.png)
+### 📊 Data Laporan Transaksi
+![Data Laporan](./Tangkapan_layar/data%20laporan%20transaksi.png)
 
 ### 🧾 Cetak Laporan Transaksi
-![Cetak Laporan](Tangkapan_layar/cetak%20data%20laporan%20transaksi.png)
+![Cetak Laporan](./Tangkapan_layar/cetak%20data%20laporan%20transaksi.png)
 
 ### 🧾 Detail Cetak Laporan
-![Detail Cetak](Tangkapan_layar/detail%20cetak%20laporan%20transaksi.png)
+![Detail Cetak](./Tangkapan_layar/detail%20cetak%20laporan%20transaksi.png)
 
 ### 👤 Profil Pekerja
-![Profil Pekerja](Tangkapan_layar/profil%20pekerja.png)
+![Profil Pekerja](./Tangkapan_layar/profil%20pekerja.png)
 
 ### ➕ Tambah Data Penggajian
-![Tambah Penggajian](Tangkapan_layar/tambah%20data%20penggajian.png)
+![Tambah Penggajian](./Tangkapan_layar/tambah%20data%20penggajian.png)
+
 
 ---
 
