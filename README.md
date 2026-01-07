@@ -34,7 +34,7 @@ Sistem manajemen parfum online berbasis web yang dibangun dengan **Java Servlet,
 ## 📸 Tangkapan Layar Aplikasi
 
 ### 🔐 Tampilan Awal
-![Tampilan Awal](Tangkapan_layar/tampilan%20awal.png)
+![Tampilan Awal](Tangkapan_layar/tampilan_awal.png)
 
 ### 🛒 Halaman Transaksi
 ![Transaksi](Tangkapan_layar/transaksi.png)
